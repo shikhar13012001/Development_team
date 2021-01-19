@@ -1,0 +1,158 @@
+body {
+ 
+   background: url("https://singularityhub.com/wp-content/uploads/2019/04/global-network-blockchain-3D-illustration-neural-artificial-intelligence-Peter-Diamandis-shutterstock-1061069282-1068x601.jpg") no-repeat center center fixed; 
+ 
+  background-size: cover;
+  text-align: left;
+  color:black;
+  padding-top:2em;
+}
+
+* { color:white; text-decoration: none;}
+
+.i
+{
+	width:60px;
+	height:60px;
+	margin-left:100px; 
+    margin-top: 10px;
+}
+.i2
+{
+	width:100px;
+	height:100px;
+	margin-left:10px; 
+    margin-top: 10px;
+}
+h1
+{
+	font-size: 40px;
+	font-family:'Open Sans',sans-serif;
+	font-weight: 400;
+}
+
+h2
+{
+	font-size: 80px;
+	font-family:monospace;
+	font-weight: 1000;
+}
+
+hr
+{
+
+    border-width:5px;
+    border-color:black solid;
+}
+p
+{  text-shadow: 1px 1px 1px #000;
+	font-family:'Open Sans' ;
+	text-align: left;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.btn-xl
+{
+	
+	
+	font-weight:bold;
+	
+}
+
+
+
+.btn-xl:hover
+{
+
+		background-color: #005FFA;
+	
+}
+.l
+{
+	width: 80px;
+	height: 30px;
+	background-color:black;
+    font-family: 'Open sans';
+    border-color:black;
+    border-radius:50px;
+    border-width:3px;
+     float:right;
+     margin-right: 70px;
+  transition: transform 1.2s;
+ 
+
+}
+.l:hover
+{
+	background-color:black;
+	color:white;
+	transform: scale(1.1) translate(12px,12px);
+}
+.img1
+{
+   width:300px;
+   height:300px;
+   margin-top:80px;
+   margin-right: 40px;
+   margin-left: 350px;
+   
+}
+h3
+{   font-family: monospace;
+	font-size:45px; 
+	text-shadow: 1px 1px 1px #000;
+	margin-top: 5rem;
+}
+.btn-info
+{    margin-top:40px;
+	 margin-left: 100px;
+}
+.txt
+{
+	font-family: monospace;
+	font-style: cursive;
+	font-weight: bold;
+	
+}
+.btn-dark
+{    margin-top:5px;
+	 margin-left: 100px;
+}
+/* GLOBAL STYLES */
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter p {
+  color: black;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 70% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+
+
+
+
+
+
+
+
+

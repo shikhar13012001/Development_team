@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	 <link
+    rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+	<title>Title</title>
+	<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
+</head>
+<body>
+<div>
+<header >	
+<h1 class="animate__animated animate__fadeInLeftBig animate__slow ">
+	<i><img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/infinity-ZumyiA.png?width=160" class="i"></i> @Borisovich
+
+</h1> 
+<hr>
+<section>
+	<button class="l"> Log In</button>
+</section>
+</header>
+<div class="container">
+<h2 class="animate__animated  animate__fadeInLeftBig animate__slower" >Brute Force <img src="https://i.pinimg.com/originals/66/24/15/66241532e0c8ac41d76cf994bc12d243.gif" class ="i2"></h2>
+<hr>
+<div>
+<script type="text/javascript">var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid white}";
+        document.body.appendChild(css);
+    };</script>
+<p>
+ In the post-apocalyptic year of 2018, Skynet controls a global empire from its heavily guarded fortress-factories and research installations. Outside of its facilities, mechanized units wage a constant war with the Resistance. Airborne units such as Aerostats (smaller versions of the Hunter Killer-aerials), HK-Aerials and Transports survey the skies; HK-Tanks, Mototerminators (high-speed pursuit units using a motorcycle chassis), and various Terminator models patrol cities and roads; and Hydrobots (serpentine aquatic units that move in swarms) patrol the waters. Harvesters (massive bipedal units designed to capture humans and eliminate any attempting to escape) collect survivors and deliver them to large transport craft for delivery to concentration camps for processing.
+</p>
+ </div>
+ <hr>
+
+<button type="button" class="btn btn-dark btn-xl">Get Started</button>
+<br>
+<br>
+<div>
+	<script type="text/javascript">var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid white}";
+        document.body.appendChild(css);
+    };</script>
+<h3>I am   
+<a href="" class="typewrite" data-period="2000" data-type='[" Neural Network"," Intelligent"," machine generated knowledge"]'>
+</a>
+</h3>
+</div>
+<div class="d-flex flex-row bd-highlight mb-3">
+  <div><img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/intro_to_neural_networks_960_by_960-AK4siW.png?width=254" class="img1 animate__animated animate__infinite	infinite animate__pulse animate__slow"></div>
+ 
+</div>
+<hr>
+ <!-- //grid of site//
+<div class="gridsystem">
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div>
+	<div>
+		<img src="https://i.pinimg.com/originals/d0/45/12/d04512a3837fd4c7cf88efe26883e037.gif">
+	</div> -->
+
+
+
+ <br>
+ <a href="#"><button type="button" class="btn btn-dark">Read Algorithm instead</button></a>
+ <hr>
+<div>
+	<h3>Science Today</h3>  
+<header>
+	<h5 class="txt animate__animated  animate__infinite	infinite animate__fadeInDown animate__slow">COMPUTATIONAL BIOLOGY<img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/computational_biology-Oj9qMF.png?width=254" class="i2 animate__animated animate__infinite	infinite animate__slower"></h5>
+</header>
+<p>	For obvious reasons, 2020 will not go down as a good year. At the same time, it has brought more scientific progress than any year in recent memory — and these advances will last long after Covid-19 as a major threat is gone.
+
+Two of the most obvious and tangible signs of progress are the mRNA vaccines now being distributed across America and around the world. These vaccines appear to have very high levels of efficacy and safety, and they can be produced more quickly than more conventional vaccines. They are...</p> 
+<a href="https://www.businesslive.co.za/bd/opinion/2020-12-27-2020-had-several-silver-linings-one-was-computational-biology/" target="_blank">READ MORE</a>
+<br>
+<h5 class="txt animate__animated  animate__infinite	infinite animate__fadeInDown animate__slow">PERPLEXING PROBABILITY<img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/perplexing_probability-LtZoR0.png?width=200" class="i2 animate__animated animate__infinite	infinite animate__slower"></h5>
+<p>Probability is full of counter-intuitive results and paradoxes.
+
+Challenge yourself by learning how to mathematically master some very surprising games and experiments including the Monty Hall game show, the Boy or Girl paradox, and the Tuesday paradox.</p>
+<a href="https://brilliant.org/courses/perplexing-probability/" target="_blank">READ MORE</a>
+<br>
+<h5 class="txt animate__animated  animate__infinite	infinite animate__fadeInDown animate__slow text-uppercase">Introduction to Neural Networks<img src="https://ds055uzetaobb.cloudfront.net/brioche/chapter/intro_to_neural_networks_960_by_960-AK4siW.png?width=254" class="i2 animate__animated animate__infinite	infinite animate__slower"></h5>
+<p>Artificial neural networks learn by detecting patterns in huge amounts of information. Much like your own brain, artificial neural nets are flexible, data-processing machines that make predictions and decisions. In fact, the best ones outperform humans at tasks like chess and cancer diagnoses.
+
+In this course, you'll dissect the internal machinery of artificial neural nets through hands-on experimentation, not hairy mathematics. You'll develop intuition about the kinds of problems they are suited to solve, and by the end you’ll be ready to dive into the algorithms, or build one for yourself.</p>
+<a href="https://brilliant.org/courses/intro-neural-networks/" target="_blank">READ MORE</a>
+
+	
+
+	
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
